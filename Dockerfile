@@ -1,10 +1,8 @@
-FROM node:4-alpine
+FROM node:alpine
 
 MAINTAINER Greg Ninforge
 
 WORKDIR /usr/src/node-red
-
-#USER node-red
 
 RUN mkdir -p /usr/src/node-red && \
     mkdir /data && \
